@@ -1,5 +1,5 @@
 A fork of `File Browser` by Bodil Stokke.  In this version, the "Open as new
-file" option has been removed.
+file" option is NOT the first one, if there are other matches.
 
 # File Browser
 

@@ -1,17 +1,17 @@
 {
     "name": "file-browser",
-    "publisher": "bodil",
-    "displayName": "File Browser",
-    "description": "A nicer alternative to the file open dialog.",
-    "version": "0.2.11",
+    "publisher": "nsintegermax",
+    "displayName": "File Browser F",
+    "description": "An adjusted version of the nicer alternative (by Bodil Stokke) to the file open dialog.",
+    "version": "0.2.13",
     "license": "LGPL-3.0+",
     "author": {
-        "name": "Bodil Stokke",
-        "url": "https://bodil.lol/"
+        "name": "Maximilian Katzmann",
+        "url": "https://github.com/maxkatzmann"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/bodil/vscode-file-browser"
+        "url": "https://github.com/maxkatzmann/vscode-file-browser"
     },
     "keywords": [
         "emacs",
@@ -35,7 +35,7 @@
     ],
     "contributes": {
         "configuration": {
-            "title": "File Browser",
+            "title": "File Browser F",
             "properties": {
                 "file-browser.removeIgnoredFiles": {
                     "markdownDescription": "Never show or match files that are hidden when matching by either `#file-browser.hideIgnoredFiles#` or `#file-browser.hideDotfiles#`.",
