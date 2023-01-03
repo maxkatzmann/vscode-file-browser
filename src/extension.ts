@@ -176,7 +176,7 @@ class FileBrowser {
                 () => {
                     const newItem = {
                         label: `$(new-file) → ${value}`,
-                        name: `→ ${value}`,
+                        name: `${value}`,
                         description: "Open as new file",
                         alwaysShow: true,
                         action: Action.NewFile,

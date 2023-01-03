@@ -3,7 +3,7 @@
     "publisher": "nsintegermax",
     "displayName": "File Browser F",
     "description": "An adjusted version of the nicer alternative (by Bodil Stokke) to the file open dialog.",
-    "version": "0.2.13",
+    "version": "0.2.14",
     "license": "LGPL-3.0+",
     "author": {
         "name": "Maximilian Katzmann",
