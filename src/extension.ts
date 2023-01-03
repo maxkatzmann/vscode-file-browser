@@ -174,15 +174,15 @@ class FileBrowser {
                     }
                 },
                 () => {
-                    const newItem = {
-                        label: `$(new-file) ${value}`,
-                        name: value,
-                        description: "Open as new file",
-                        alwaysShow: true,
-                        action: Action.NewFile,
-                    };
-                    this.current.items = [newItem, ...this.items];
-                    this.current.activeItems = [newItem];
+                    // const newItem = {
+                    //     label: `$(new-file) ${value}`,
+                    //     name: value,
+                    //     description: "Open as new file",
+                    //     alwaysShow: true,
+                    //     action: Action.NewFile,
+                    // };
+                    // this.current.items = [newItem, ...this.items];
+                    // this.current.activeItems = [newItem];
                 }
             );
         }
